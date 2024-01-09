@@ -10,8 +10,8 @@ const BalanceComponent = (balance) => {
      marginTop:"10px",
      padding:"10px",
     minHeight: '10rem',
-    backgroundColor: 'rgba(255, 255, 255, 0.2)', // White color with 30% opacity
-    zIndex: 1000, // Adjust z-index as needed to overlay on top of other content
+    backgroundColor: 'rgba(255, 255, 255, 0.2)', 
+    zIndex: 1000,
   };
 
   return <div style={overlayStyle}>
